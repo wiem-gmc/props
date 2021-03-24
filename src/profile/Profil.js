@@ -3,11 +3,11 @@ import React from 'react'
 
  const Profil = ({children,FullName, Bio, Profession,alertName}) => {console.log({children});
    return (
-      <div>
+      <div onClick={()=>alertName(FullName)}>
          <p>FullName is: {FullName}</p>
          <p>Bio is: {Bio}</p>
          <p >Profession is: {Profession}</p>
-         <img src= {children} alt="" onClick={()=>alertName(FullName)}></img>
+         <img src={children}  alt="" ></img>
          
       </div>
    )

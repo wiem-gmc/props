@@ -1,5 +1,5 @@
 import './App.css';
-import ProfileComponent from './profile/ProfileComponent';
+import ProfileComponent from './ProfileComponent';
 function App() {
   return (
     <div className="App">
